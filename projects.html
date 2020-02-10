@@ -24,15 +24,96 @@
                 </ul>
             </div>
         </header>
-        <div class="gallery">
-            <div class="gallery_project"></div>
-            <div class="gallery_project"></div>
-            <div class="gallery_project"></div>
-            <div class="gallery_project"></div>
-            <div class="gallery_project"></div>
-            <div class="gallery_project"></div>
+        <div class="btns">
+            <button type="button" class="btn txt_Gotham filter" data-rel="all">All</button>
+            <button type="button" class="btn txt_Gotham filter" data-rel="1">Chouette</button>
+            <button type="button" class="btn txt_Gotham filter" data-rel="2">Lion</button>
+        </div>
+
+        <div class="gallery" id="gallery">
+            <div class="gallery_project animation all 1">
+                <img src="./assets/imgGallery/devlabLogo.png" alt="devlabLogo">
+                <div class="infos_project animation all 1">
+                    <h3 class="txt_John">TITLE</h3>
+                    <p class="txt_Gotham">Hard Skills</p>
+                </div>
+            </div>
+            <div class="gallery_project animation all 2">
+                <img src="./assets/imgGallery/liquid.png" alt="dwLogo">
+                <div class="infos_project animation all 2">
+                    <h3 class="txt_John">TITLE</h3>
+                    <p class="txt_Gotham">Hard Skills</p>
+                </div>
+            </div>
+            <div class="gallery_project animation all 1">
+                <img src="./assets/imgGallery/DWlogoA2.png" alt="Webstellar">
+                <div class="infos_project animation all 1">
+                    <h3 class="txt_John">TITLE</h3>
+                    <p class="txt_Gotham">Hard Skills</p>
+                </div>
+            </div>
+            <div class="gallery_project animation all 2">
+                <img src="./assets/imgGallery/Cactus.png" alt="Cactus">
+                <div class="infos_project animation all 2">
+                    <h3 class="txt_John">TITLE</h3>
+                    <p class="txt_Gotham">Hard Skills</p>
+                </div>
+            </div>
+            <div class="gallery_project animation all 1">
+                <img src="./assets/imgGallery/logoFree.png" alt="logoFree">
+                <div class="infos_project animation all 1">
+                    <h3 class="txt_John">TITLE</h3>
+                    <p class="txt_Gotham">Hard Skills</p>
+                </div>
+            </div>
+            <div class="gallery_project animation all 2">
+                <img src="./assets/imgGallery/Black_Tunnel.jpg" alt="liquid">
+                <div class="infos_project animation all 2">
+                    <h3 class="txt_John">TITLE</h3>
+                    <p class="txt_Gotham">Hard Skills</p>
+                </div>
+            </div>
+            <div class="gallery_project animation all 2">
+                <img src="./assets/imgGallery/fox.png" alt="fox">
+                <div class="infos_project animation all 2">
+                    <h3 class="txt_John">TITLE</h3>
+                    <p class="txt_Gotham">Hard Skills</p>
+                </div>
+            </div>
+            <div class="gallery_project animation all 2">
+                <img src="./assets/imgGallery/iso.png" alt="iso">
+                <div class="infos_project animation all 2">
+                    <h3 class="txt_John">TITLE</h3>
+                    <p class="txt_Gotham">Hard Skills</p>
+                </div>
+            </div>
+            <div class="gallery_project animation all 2">
+                <img src="./assets/imgGallery/tiger.png" alt="tiger">
+                <div class="infos_project animation all 2">
+                    <h3 class="txt_John">TITLE</h3>
+                    <p class="txt_Gotham">Hard Skills</p>
+                </div>
+            </div>
         </div>
     </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <script>
+
+        $(function () {
+            var selectedClass = "";
+            $(".filter").click(function () {
+                selectedClass = $(this).attr("data-rel");
+                $("#gallery").fadeTo(100, 0.1);
+                $("#gallery div").not("." + selectedClass).fadeOut().removeClass('animation');
+                setTimeout(function () {
+                    $("." + selectedClass).fadeIn().addClass('animation');
+                    $("#gallery").fadeTo(300, 1);
+                }, 300);
+            });
+        });
+
+    </script>
 </body>
 
 </html>
