@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="../css/projects.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../assets/logoN.png" alt="logo" id="logo">
+                </a>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="../index.html"><span data-hover="Home">Home</span></a></li>
+                    <li><a href="../page/projects.html"><span data-hover="Projects">Projects</span></a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="btns">
+            <button type="button" class="btn txt_Gotham filter" data-rel="all">All</button>
+            <button type="button" class="btn txt_Gotham filter" data-rel="1">Design</button>
+            <button type="button" class="btn txt_Gotham filter" data-rel="2">Web</button>
+        </div>
+
+        <div class="gallery" id="gallery">
+
+            <a href="devlab.html">
+                <div class="gallery_project animation all 1">
+                    <img src="../assets/imgGallery/devlab.svg" alt="devlabLogo">
+                    <div class="infos_project animation all 1">
+                        <h3 class="txt_John">DEVLAB</h3>
+                        <p class="txt_Gotham">Logo | Branding | Wireframe</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="liquid.html">
+                <div class="gallery_project animation all 1">
+                    <img src="../assets/imgGallery/liquid.png" alt="liquid">
+                    <div class="infos_project animation all 1">
+                        <h3 class="txt_John">Liquid effect</h3>
+                        <p class="txt_Gotham">Photoshop</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="axeDW.html">
+                <div class="gallery_project animation all 1">
+                    <img src="../assets/imgGallery/DWlogoA2.png" alt="DWlogo">
+                    <div class="infos_project animation all 1">
+                        <h3 class="txt_John">Axe DW</h3>
+                        <p class="txt_Gotham">Logo | Branding</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="cactus.html">
+                <div class="gallery_project animation all 2">
+                    <img src="../assets/imgGallery/Cactus.png" alt="Cactus">
+                    <div class="infos_project animation all 2">
+                        <h3 class="txt_John">CACTUS</h3>
+                        <p class="txt_Gotham">Wireframe | Website</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="freelance.html">
+                <div class="gallery_project animation all 1">
+                    <img src="../assets/imgGallery/logoFree.png" alt="logoFree">
+                    <div class="infos_project animation all 1">
+                        <h3 class="txt_John">ID FreeLance</h3>
+                        <p class="txt_Gotham">Logo | Wireframe</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="webstellar.html">
+                <div class="gallery_project animation all 2">
+                    <img src="../assets/imgGallery/webstellar.png" alt="Webstellar">
+                    <div class="infos_project animation all 2">
+                        <h3 class="txt_John">Webstellar</h3>
+                        <p class="txt_Gotham">Wireframe | Website</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="animals.html">
+                <div class="gallery_project animation all 1">
+                    <img src="../assets/imgGallery/fox.png" alt="fox">
+                    <div class="infos_project animation all 1">
+                        <h3 class="txt_John">Animals</h3>
+                        <p class="txt_Gotham">Photoshop</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="isometric.html">
+                <div class="gallery_project animation all 1">
+                    <img src="../assets/imgGallery/iso.png" alt="iso">
+                    <div class="infos_project animation all 1">
+                        <h3 class="txt_John">Isometric</h3>
+                        <p class="txt_Gotham">Mobile Design</p>
+                    </div>
+                </div>
+            </a>
+            <a href="tiger.html">
+                <div class="gallery_project animation all 1">
+                    <img src="../assets/imgGallery/tiger.png" alt="tiger">
+                    <div class="infos_project animation all 1">
+                        <h3 class="txt_John">Tiger</h3>
+                        <p class="txt_Gotham">Logo | Illustration</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <script>
+
+        $(function () {
+            var selectedClass = "";
+            $(".filter").click(function () {
+                selectedClass = $(this).attr("data-rel");
+                $("#gallery").fadeTo(100, 0.1);
+                $("#gallery div").not("." + selectedClass).fadeOut().removeClass('animation');
+                setTimeout(function () {
+                    $("." + selectedClass).fadeIn().addClass('animation');
+                    $("#gallery").fadeTo(300, 1);
+                }, 300);
+            });
+        });
+
+    </script>
+</body>
+
+</html>

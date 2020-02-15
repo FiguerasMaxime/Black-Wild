@@ -185,6 +185,24 @@ header .logo {
         width: 40vw;
         height: 280px;
     }
+
+    .columns {
+        flex-direction: column;
+    }
+    .container_img .columns .img_left,.container_img .columns .img_right {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .container .container_info h1 {
+        font-size: 3rem;
+    }
+    .container .details h3 {
+        font-size: 0.7rem;
+    }
+    .container .details p {
+        font-size: 0.5rem;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -194,6 +212,12 @@ header .logo {
     }
     .nav {
         width: 40%;
+    }
+    .container .container_img {
+        width: 80vw;
+    }
+    .container .container_info h1 {
+        font-size: 2rem;
     }
 }
 
@@ -215,4 +239,86 @@ header .logo {
     .nav ul li a, .nav ul li a span {
         font-size: 0.8rem;
     }
+    .container .container_info h1 {
+        font-size: 1.3rem;
+    }
+}
+
+/* ONE PAGE PROJECT */
+.container{
+    width: 100vw;
+    background: #e4e4e4;
+}
+
+.container_info {
+    width: 100vw;
+    display: flex;
+}
+
+.container h1 {
+    margin: 0;
+    padding: 3vh 3vw 1vh 1vw;
+    color: #fff;
+    background-color: #000;
+    font-size: 4rem;
+}
+
+.details{
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.details p {
+    font-size: 0.7rem;
+}
+.details h3 {
+    font-size: 1rem;
+}
+
+.container_img {
+    width: 55vw;
+    margin: 0 auto;
+    padding: 2vh 2vw;
+}
+.container_img .full {
+    width: 100%;
+    height: auto;
+    padding: 0 1vw;
+    margin-bottom: 4vh;
+}
+
+.container_img .columns {
+    display: flex;
+
+}
+
+.container_img .img_left, .container_img .img_right {
+    width: 50%;
+    padding: 3vh 1vw;
+    margin-bottom: 15px;
+}
+.img_left img, .img_right img {
+    width: 100%;
+    margin-bottom: 4vh;
+}
+
+.link {
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.link a{
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: all 0.33s ease-in;
+}
+
+.link a:hover {
+    color: #fff;
+    background-color: #000;
 }

@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <filter id="Tracé_2" x="542.765" y="-1095" width="1382.775" height="1481.946" filterUnits="userSpaceOnUse">
+      <feOffset dx="-10" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.948" y1="-0.009" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6a7ff4"/>
+      <stop offset="1" stop-color="#35407a"/>
+    </linearGradient>
+    <filter id="Tracé_135" x="-10.841" y="295.434" width="1946.486" height="1489.856" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="-0.036" y1="1.066" x2="0.543" y2="0.381" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6a7ff4"/>
+      <stop offset="1" stop-color="#45539f"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="1.021" y1="0.5" x2="-0.037" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3c488a"/>
+      <stop offset="0.5" stop-color="#7a8cef"/>
+      <stop offset="1" stop-color="#677bed"/>
+    </linearGradient>
+    <filter id="Rectangle_4" x="404" y="365" width="362" height="362" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_5" x="779" y="365" width="362" height="362" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_6" x="1154" y="365" width="362" height="362" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-4" x1="0.5" y1="0" x2="0.5" y2="1" xlink:href="#linear-gradient-2"/>
+    <filter id="Rectangle_3" x="894" y="765" width="190" height="69" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Web_1920_2">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_2" data-name="Web 1920 – 2" clip-path="url(#clip-Web_1920_2)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Tracé_2)">
+      <path id="Tracé_2-2" data-name="Tracé 2" d="M626.021,0S560.552,314.544,853.192,458.707c245.212,106.728,297.245,196.112,358.636,411.958,17.312,60.869,31.04,97.672,49.81,129.387,36.352,61.414,92.282,81.028,99.513,82.953s6.044,1.328,36.841,5.905,61.786,15.9,75.309,22.635c12.651,7.2,103.038,65.718,124.312,97.8,2.936,7.045-1.668-2.585,21.015,63.4,10.718,27.354,15.755,51.688,96.655,114.141,125.779,79.245,256.723,63.849,256.723,63.849L1972.54,0Z" transform="translate(-52 -1083)" fill="#6a7ff4"/>
+    </g>
+    <path id="Tracé_1" data-name="Tracé 1" d="M626.021,0s-86.9,324.06,189.05,469.222c245.212,106.728,321.379,180.56,382.771,396.407,21.259,81.645,32.48,107.05,51.25,138.764,30.851,55.8,83.532,75.624,83.532,75.624s14.2,2.226,19.384,2.907c19.709,2.588,83.148,9.909,158.221,89.017s35.7,111.134,150.615,190.381c142.11,83.411,259.6,54.245,259.6,54.245L1920.757,0Z" transform="translate(0 -1080)" fill="url(#linear-gradient)"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Tracé_135)">
+      <path id="Tracé_135-2" data-name="Tracé 135" d="M3876.644,1182.542v-203.9s-43.715-15.4-165.171-31.382c-190.851-30.846-439.061,110.331-561.959,62.1-130.4-35.128-167.179-116.112-206.076-176.244s-92.885-86.74-111.734-94.017c-135.72-52.4-315.585,135.514-447.319,41.479s-93.662-384.856-224.4-488.37-205.823-85.585-205.823-85.585V984.043l3.7,687.248s70.175-76.751,160.983-134.565c75.944-48.193,134.357-91.063,241.459-112.35,162.985-7.934,177.164,36.98,352.248,75.026,72.314,14.173,218.31-.978,274.074-59.575,36.736-38.6,72-148.8,86.143-176.115,35.539-68.636,103.385-88.568,222.62-63.042s187.8,110.228,278.644,118.571S3824.872,1293.25,3876.644,1182.542Z" transform="translate(-1957 101)" fill="#6a7ff4"/>
+    </g>
+    <path id="Tracé_134" data-name="Tracé 134" d="M3552.688,929.863c-190.158,50.975-244.558,85.748-417.735,34.784S2962.44,765.309,2859.981,726.008c-136.613-52.4-303.531,106.551-436.131,12.515S2319.2,405.15,2187.6,301.636s-196.668-87.468-196.668-87.468V949.432l-.073,205.381v479.235s130.206-190.1,360.585-238.4,352.1,102.449,560.932,45.191,87.944-232.052,274.4-274.224,290.382,108.486,471.42,105.536,252.734-117.338,252.734-117.338V948.207S3742.846,878.888,3552.688,929.863Z" transform="translate(-1991 132)" fill="url(#linear-gradient-2)"/>
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="86" height="12" rx="6" transform="translate(1745 1007)" fill="url(#linear-gradient-3)"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_4)">
+      <rect id="Rectangle_4-2" data-name="Rectangle 4" width="344" height="344" rx="44" transform="translate(413 368)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_5)">
+      <rect id="Rectangle_5-2" data-name="Rectangle 5" width="344" height="344" rx="42" transform="translate(788 368)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_6)">
+      <rect id="Rectangle_6-2" data-name="Rectangle 6" width="344" height="344" rx="41" transform="translate(1163 368)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_3)">
+      <g id="Rectangle_3-2" data-name="Rectangle 3" transform="translate(902 772)" stroke="#5e70d7" stroke-linecap="round" stroke-width="3" fill="url(#linear-gradient-4)">
+        <rect width="166" height="45" rx="22.5" stroke="none"/>
+        <rect x="-1.5" y="-1.5" width="169" height="48" rx="24" fill="none"/>
+      </g>
+    </g>
+    <text id="MORE" transform="translate(958 786)" fill="#fff" font-size="16" font-family="Gotham-Book, Gotham" letter-spacing="0.005em"><tspan x="0" y="13">MORE</tspan></text>
+    <g id="Groupe_85" data-name="Groupe 85" transform="translate(728 224)">
+      <path id="Tracé_136" data-name="Tracé 136" d="M-114,311.742h-24.742V287h-9.516v24.742H-173v9.516h24.742V346h9.516V321.258H-114Z" fill="#45539f"/>
+      <path id="Tracé_137" data-name="Tracé 137" d="M-143,368a52.059,52.059,0,0,1-52-52,52.059,52.059,0,0,1,52-52,52.059,52.059,0,0,1,52,52A52.059,52.059,0,0,1-143,368Zm0-100a48.055,48.055,0,0,0-48,48,48.055,48.055,0,0,0,48,48,48.055,48.055,0,0,0,48-48A48.055,48.055,0,0,0-143,268Z" fill="#6a7ff4"/>
+    </g>
+    <g id="Groupe_86" data-name="Groupe 86" transform="translate(1103 224)">
+      <path id="Tracé_136-2" data-name="Tracé 136" d="M-114,311.742h-24.742V287h-9.516v24.742H-173v9.516h24.742V346h9.516V321.258H-114Z" fill="#45539f"/>
+      <path id="Tracé_137-2" data-name="Tracé 137" d="M-143,368a52.059,52.059,0,0,1-52-52,52.059,52.059,0,0,1,52-52,52.059,52.059,0,0,1,52,52A52.059,52.059,0,0,1-143,368Zm0-100a48.055,48.055,0,0,0-48,48,48.055,48.055,0,0,0,48,48,48.055,48.055,0,0,0,48-48A48.055,48.055,0,0,0-143,268Z" fill="#6a7ff4"/>
+    </g>
+    <g id="Groupe_87" data-name="Groupe 87" transform="translate(1478 224)">
+      <path id="Tracé_136-3" data-name="Tracé 136" d="M-114,311.742h-24.742V287h-9.516v24.742H-173v9.516h24.742V346h9.516V321.258H-114Z" fill="#45539f"/>
+      <path id="Tracé_137-3" data-name="Tracé 137" d="M-143,368a52.059,52.059,0,0,1-52-52,52.059,52.059,0,0,1,52-52,52.059,52.059,0,0,1,52,52A52.059,52.059,0,0,1-143,368Zm0-100a48.055,48.055,0,0,0-48,48,48.055,48.055,0,0,0,48,48,48.055,48.055,0,0,0,48-48A48.055,48.055,0,0,0-143,268Z" fill="#6a7ff4"/>
+    </g>
+    <text id="Students_projects_freelance_and_more_" data-name="Students projects, freelance and more… " transform="translate(413 316)" fill="#707070" font-size="30" font-family="Gotham-Book, Gotham" letter-spacing="0.05em"><tspan x="0" y="24">Students projects, freelance and more… </tspan></text>
+  </g>
+</svg>
