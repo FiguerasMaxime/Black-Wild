@@ -100,6 +100,20 @@ header .logo {
 
 /* GALLERY */
 
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    margin: 2vh 2vw;
+    height: 50px;
+    cursor: pointer;
+}
+
+.arrowSVG {
+    width: 75%;
+}
+
 .btns {
     margin-top: 8vh;
     width: 100vw;
